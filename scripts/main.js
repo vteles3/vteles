@@ -8,5 +8,5 @@ function httpGet(theUrl) {
 }
 
 $(document).ready(function() {
-  httpGet("http://34.125.76.7:3000/ping");
+  httpGet("https://34.125.76.7:3000/ping");
 });
