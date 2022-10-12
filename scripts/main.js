@@ -6,4 +6,7 @@ const userAction = async () => {
   document.getElementById("test-label").innerHTML = myJson.greeting;
 }
 
-userAction();
+window.onload = function()
+{
+  userAction();
+};
